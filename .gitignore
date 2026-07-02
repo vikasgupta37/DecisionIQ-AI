@@ -1,25 +1,70 @@
-# Python
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.py[cod]
+*.py[codz]
 *$py.class
-.venv/
-.pytest_cache/
-.coverage
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Unit test / coverage reports
 htmlcov/
-*.db
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py.cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Environments & Local Files
+.env
+.env.local
+.env.*.local
+.envrc
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
 sql_app.db
 uploads/
 *.log
 
-# Node.js
+# mypy
+.dmypy.json
+dmypy.json
+.mypy_cache/
+
+# Node.js / Frontend
 node_modules/
 .next/
 out/
-build/
-dist/
-.env
-.env.local
-.env.*.local
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
@@ -35,3 +80,4 @@ yarn-error.log*
 *.sw?
 .DS_Store
 Thumbs.db
+tempCodeRunnerFile.py
